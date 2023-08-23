@@ -450,7 +450,7 @@ public class CalculadoraEstadisticas
 		{
 			if (atleta.darNombre().equals(nombreAtleta))
 			{	
-				String respuesta = ("El atleta " + nombreAtleta + " representa a " + atleta.darPais().darNombre());
+				String respuesta = ("El atleta " + nombreAtleta + " es de " + atleta.darPais().darNombre());
 				
 				return respuesta;
 				
